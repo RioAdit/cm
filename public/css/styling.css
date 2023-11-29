@@ -1,0 +1,41 @@
+.navbar-fixed-top .navbar-static-top {
+  background: white;
+  /* height: 200px; */
+}
+
+.psProd,
+.psWila,
+.psTipe {
+  appearance: none;
+}
+
+/* .ui-helper-hidden-accessible {
+  display: none;
+} */
+
+/* .note-editor .dropdown-toggle::after { all: unset; } */
+
+.overlay{
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: rgba(255,255,255,0.4) url("\images\loading4.gif") center no-repeat;
+}
+
+/* body{
+  text-align: center;
+} */
+
+/* Turn off scrollbar when body element has the loading class */
+body.loading{
+  overflow: hidden;   
+}
+
+/* Make spinner image visible when body element has the loading class */
+body.loading .overlay{
+  display: block;
+}
